@@ -1,48 +1,16 @@
-#mainandonlybody {
-	background-color: #000000;
+body {
+	background-color: black;
+	margin: 0px;
 }
-#rapidnumerals {
+div {
+	color: white;
 	font-family: Arial;
-	left: 0;
-    line-height: 200px;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
 	text-align: center;
-	font-size: 8em;
-}
-#rngnspan1 {
-	color: #000000;
-}
-#rngnspan2 {
-	color: #000000;
-}
-#rngnspan3 {
-	color: #000000;
-}
-#rngnspan4 {
-	color: #000000;
-}
-#rngnspan5 {
-	color: #000000;
-}
-#rngnspan6 {
-	color: #000000;
-}
-#rngnspan7 {
-	color: #000000;
-}
-#rngnspan8 {
-	color: #000000;
-}
-#rngnspan9 {
-	color: #000000;
-}
-#rngnspan10 {
-	color: #000000;
-}
-#rngnspan11 {
-	color: #000000;
+	
+	line-height: 100vh; /* Accidently came across this hacky shit. 
+						I hope browser support for vh is going well! */
+	font-size: 8vw;
+	width: 100%;
+	
+	cursor: pointer;
 }
